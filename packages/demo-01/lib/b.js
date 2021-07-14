@@ -1,0 +1,1 @@
+export const h = (name = 'world') => `hello ${name}!`

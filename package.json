@@ -1,0 +1,17 @@
+{
+  "name": "webpack-playground",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "webpack palyground for study",
+  "main": "index.js",
+  "author": "cbbfcd",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
