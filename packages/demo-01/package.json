@@ -17,7 +17,8 @@
     "registry": "http://r.npm.sankuai.com/"
   },
   "scripts": {
-    "build": "rm -rf ./dist && webpack"
+    "build": "rm -rf ./dist && webpack",
+    "debug": "node ./debug/index.js"
   },
   "dependencies": {
     "webpack": "^5.44.0",
